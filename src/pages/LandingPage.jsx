@@ -1,9 +1,20 @@
 import React from 'react'
-import { Navbar} from '../components'
+import { useState } from 'react';
+import { Navbar, Sidebar} from '../components'
 const LandingPage = () => {
+  const [showSearchBar, setShowSearchBar] = useState(false);
+  const [showSideBar, setShowSideBar] = useState(false);
+  
   return (
     <>
-        <Navbar/>
+        <Navbar showSearchBar={showSearchBar} setShowSearchBar={setShowSearchBar} setShowSideBar = {setShowSideBar}/>
+        {
+          showSideBar
+          ?
+          <Sidebar setShowSideBar={setShowSideBar}/>
+          :
+          <></>
+        }
     </>
   )
 }
