@@ -9,7 +9,7 @@ import Seo from '../assets/seo.jpg'
 import Training from '../assets/training.jpg'
 const Service = () => {
     return (
-        <div className='service-box w-full flex flex-wrap gap-6 lg:gap-6 lg:justify-between'>
+        <div className='service-box w-full flex flex-wrap gap-6 lg:gap-6 justify-center' >
             <div className="pair flex justify-between lg:justify-start lg:gap-6">
                 <ServiceBox Image={webdev} />
                 <ServiceBox Image={Graphic} />
