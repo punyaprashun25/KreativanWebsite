@@ -37,7 +37,7 @@ const Faq = () => {
         }
     ]
     return (
-        <div className='faq-box w-full lg:max-w-[45%] px-6 bg-[#2F5AA8] py-20 flex flex-col gap-5'>
+        <div className='faq-box w-full lg:max-w-[45%] px-6 bg-[#2F5AA8] py-10 flex flex-col gap-5 rounded-md'>
             <p className="text text-[#00FCFF] text-[2rem] font-bold ml-8">FAQ</p>
             <div className="faqs flex flex-col gap-5">
                 {

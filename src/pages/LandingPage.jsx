@@ -22,7 +22,7 @@ const LandingPage = () => {
           <About/>
           <Service />
         </section>
-        <section className="faq-section bg-[#EDF0F5] pt-28 pb-6 w-full flex flex-col gap-10">
+        <section className="faq-section bg-[#EDF0F5] pt-20 pb-6 w-full flex flex-col gap-10">
           <Faq/>
         </section>
         
