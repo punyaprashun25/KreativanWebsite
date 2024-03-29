@@ -5,7 +5,7 @@ const CollapsingBox = ({ques, ans}) => {
     <div className='collapsingBox w-full bg-white px-8 lg:px-2 lg:py-2 py-6 flex gap-4 items-center rounded-md'>
         <img src={rightArrow} alt="" className='w-7 h-7'/>
         <p className="question text-[1rem]">
-        How long do digital marketers have to work?
+          {ques}
         </p>
     </div>
   )

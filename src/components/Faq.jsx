@@ -42,10 +42,9 @@ const Faq = () => {
             <div className="faqs flex flex-col gap-5">
                 {
                     data.map((item)=>{
-                        <CollapsingBox ques={item.ques} ans={item.ans} />
+                        return <CollapsingBox ques={item.ques} ans={item.ans} />
                     })
                 }
-                <CollapsingBox />
             </div>
         </div>
     )
