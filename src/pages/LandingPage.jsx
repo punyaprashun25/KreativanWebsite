@@ -15,8 +15,7 @@ const LandingPage = () => {
           :
           <></>
         }
-        <section className='w-full px-4 py-8'>
-
+        <section className='w-full px-4 lg:px-12 py-8'>
           <Heading/>
         </section>
     </>
