@@ -1,6 +1,8 @@
 import React from 'react'
 import { useState } from 'react';
-import { Navbar, Sidebar, Heading} from '../components'
+import { Navbar, Sidebar, Heading, About} from '../components'
+
+
 const LandingPage = () => {
   const [showSearchBar, setShowSearchBar] = useState(false);
   const [showSideBar, setShowSideBar] = useState(false);
@@ -15,9 +17,8 @@ const LandingPage = () => {
           :
           <></>
         }
-        <section className='w-full px-4 lg:px-12 py-8'>
-          <Heading/>
-        </section>
+        <Heading/>
+        <About/>
     </>
   )
 }
