@@ -9,23 +9,21 @@ import Seo from '../assets/seo.jpg'
 import Training from '../assets/training.jpg'
 const Service = () => {
     return (
-        <div className='service-box w-full flex flex-wrap gap-8 justify-center'>
-            <div className="pair flex justify-between">
+        <div className='service-box w-full flex flex-wrap gap-6 '>
+            <div className="pair flex justify-between lg:gap-1">
                 <ServiceBox Image={webdev} />
                 <ServiceBox Image={Graphic} />
             </div>
-            <div className="pair flex justify-between">
+            <div className="pair flex justify-between lg:gap-1">
                 <ServiceBox Image={Android} />
                 <ServiceBox Image={GoogleAds} />
             </div>
-            <div className="pair flex justify-between">
+            <div className="pair flex justify-between lg:gap-1">
                 <ServiceBox Image={Ios} />
                 <ServiceBox Image={Seo} />
             </div>
-            <div className="single w-full">
-                <div className='img-box  w-[65%] aspect-serviceImage lg:max-w-[150px]'>
-                    <img src={Training} alt="" className='object-contain opacity-[0.4] hover:opacity-[0.8] transition-opacity' />
-                </div>
+            <div className='img-box w-full lg:w-[45%] max-w-[65%] aspect-serviceImage lg:max-w-[150px]'>
+                <img src={Training} alt="" className='object-contain opacity-[0.4] hover:opacity-[0.8] transition-opacity' />
             </div>
         </div>
     )
