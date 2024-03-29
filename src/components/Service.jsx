@@ -22,7 +22,7 @@ const Service = () => {
                 <ServiceBox Image={Ios} />
                 <ServiceBox Image={Seo} />
             </div>
-            <div className='img-box w-full lg:w-[45%] max-w-[65%] aspect-serviceImage lg:max-w-[150px]'>
+            <div className='img-box w-full lg:w-[45%] max-w-[65%] aspect-serviceImage lg:max-w-[150px] cursor-pointer'>
                 <img src={Training} alt="" className='object-contain opacity-[0.4] hover:opacity-[0.8] transition-opacity' />
             </div>
         </div>
