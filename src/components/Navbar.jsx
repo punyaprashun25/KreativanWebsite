@@ -20,7 +20,7 @@ const Navbar = ({showSearchBar, setShowSearchBar, setShowSideBar}) => {
                 :
                 <></>
             }
-            <img src={Logo} alt="" className='w-[266px] aspect-[266 / 67]' />
+            <img src={Logo} alt="" className='w-[266px] aspect-[266/67]' />
             <div className="right-box flex items-center">
                 <img src={searchIcon} onClick={searchBarHandler} alt="" className='w-5 h-5'/>
                 <WhiteIcon/>

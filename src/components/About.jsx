@@ -2,7 +2,7 @@ import React from 'react'
 import Illustration_1 from '../assets/illustration1.jpg';
 const About = () => {
   return (
-    <div className='about w-full bg-[#EDF0F5] pt-28 px-10 pb-6'>
+    <div className='about w-full lg:flex items-center flex-row-reverse gap-10'>
         <div className="info-box text-[13.5pt] leading-[1.875em]">
             <p className="info-1">
                 At Kreativan Technologies, we help small & midsize business enterprises across the globe, get the desired <span> ROI </span>through our bespoke web and allied services. The whole idea is to reach out to a wider audience locally or globally, and convert prospects to new customers. The bottomline is to increase conversion rate, visitor footfalls, traffic, sales, revenue, leads and new subscribers for any organization, across the board.

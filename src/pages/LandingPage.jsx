@@ -1,6 +1,6 @@
 import React from 'react'
 import { useState } from 'react';
-import { Navbar, Sidebar, Heading, About} from '../components'
+import { Navbar, Sidebar, Heading, About, Service} from '../components'
 
 
 const LandingPage = () => {
@@ -18,7 +18,10 @@ const LandingPage = () => {
           <></>
         }
         <Heading/>
-        <About/>
+        <section className="main-section bg-[#EDF0F5] pt-28 px-10 pb-6 w-full flex flex-col gap-10">
+          <About/>
+          <Service />
+        </section>
     </>
   )
 }
