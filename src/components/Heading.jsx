@@ -2,8 +2,10 @@ import React from 'react'
 
 const Heading = () => {
   return (
-    <div>
-      
+    <div className='w-full mt-16'>
+      <h2 className="heading-text font-bold text-3xl text-center text-[#1f2531]">
+        A Digital Marketing Company in Chandigarh with a Difference and Proven Expertise.
+      </h2>
     </div>
   )
 }
