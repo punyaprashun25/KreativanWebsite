@@ -11,7 +11,7 @@ const About = () => {
                 As the best digital marketing agency, we’ve mastered the art of website design, development and optimization; thanks to our highly professional team of qualified web designers & developers, web analysts, SEO strategists, IT experts and digital marketers that leave no stone unturned in bolstering a site’s overall performance
             </p>
         </div>
-        <img src={Illustration_1} alt="" className='w-full h-auto lg:w-[40%] mt-10 rounded-bl-[4.5rem]' />
+        <img src={Illustration_1} alt="" className='w-full h-auto lg:w-[40%] mt-10 rounded-bl-[3rem]' />
     </div>
   )
 }
